@@ -1,0 +1,196 @@
+:root {
+  --primary-color: #090B36;
+  --text-color: #FEFEFE;
+  --details-color: #Fe5000;
+  --text-datails-color: #F4EDD3;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background: var(--primary-color);
+  margin: 0;
+  padding: 0;
+  font-family: 'Aclonica';
+  height: auto;
+}
+
+svg {
+  color: var(--text-color);
+}
+p {
+  color: var(--text-datails-color);
+}
+.no-decoration {
+  text-decoration: none;
+  color: inherit;
+}
+
+.box-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  left: 30%;
+  width: 40%;
+}
+
+.header {
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.header p {
+  position: relative;
+  top: -8vh;
+}
+
+.imgLogo {
+  position: relative;
+  align-items: center;
+  top: -8vh;
+  border-bottom: 2px solid var(--details-color);
+}
+
+.btn-nav {
+  position: relative;
+  top: 5px;
+  width: 7vh;
+  height: 7vh;
+  left: 95%;
+}
+
+.bi-justify {
+  cursor: pointer;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  height: 3vh;
+  font-size: 2.2vw;
+  top: -20px;
+}
+
+.main {
+  position: relative;
+  top: -5vh;
+  display: block;
+  left: 15%;
+  width: 70%;
+  height: auto;
+}
+
+.opt-TravelBrazil,
+.opt-travelMountain,
+.opt-club,
+.opt-calendar {
+  position: relative;
+  display: flex;
+  align-items: end;
+  text-align: center;
+  top: 1vh;
+  width: 70%;
+  left: 15%;
+}
+
+.opt-TravelBrazil p,
+.opt-travelMountain p,
+.opt-club p,
+.opt-calendar p {
+  position: relative;
+  justify-content: center;
+  height: 5vh;
+  left: 10%;
+}
+
+.mountainImg {
+  width: 18vh;
+  height: 18vh;
+  color: #fff;
+}
+
+.mountainImg img {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 1020px) {
+  .box-header {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header {
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    left: -60%;
+    top: 5vh;
+    width: 100%;
+  }
+
+  .header p {
+    position: relative;
+    text-align: center;
+    font-size: 5vw;
+    left: 50%;
+  }
+
+  .imgLogo {
+    position: relative;
+    align-items: center;
+
+  }
+
+  .btn-nav {
+    position: relative;
+    top: 20px;
+    width: 7vh;
+    height: 7vh;
+    left: 80%;
+  }
+
+  .main {
+    top: 0vh;
+  }
+
+  .opt-TravelBrazil,
+  .opt-travelMountain,
+  .opt-club,
+  .opt-calendar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    top: 0vh;
+    width: 100%;
+    left: 0%;
+  }
+
+  .opt-TravelBrazil p,
+  .opt-travelMountain p,
+  .opt-club p,
+  .opt-calendar p {
+    position: relative;
+    height: 5vh;
+    font-size: 5vw;
+  }
+
+  .mountainImg {
+    width: 18vh;
+    height: 18vh;
+    color: #fff;
+  }
+
+  .mountainImg img {
+    height: 100%;
+    width: 100%;
+  }
+}
